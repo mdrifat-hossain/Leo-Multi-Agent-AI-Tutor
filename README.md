@@ -223,6 +223,4 @@ leo-ai-tutor/
 | `pip install` fails | Use Python 3.10 - 3.12 inside a fresh virtual environment |
 | Page does not load | Check that `python app.py` is still running and port 7860 is free |
 
-## 🔒 Security
-Never commit your API key. Leo reads it from environment variables, a local `.env` file (git-ignored) or Kaggle Secrets.
-If a key is ever exposed, revoke it in Google AI Studio and create a new one.
+
